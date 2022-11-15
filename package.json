@@ -1,0 +1,22 @@
+{
+    "name": "generator",
+    "devDependencies": {
+        "@types/node": "^10.0.0"
+    },
+    "main": "src/index.ts",
+    "scripts": {
+        "run": "tsc"
+    },
+    "dependencies": {
+        "@pulumi/kubernetes": "^2.0.0",
+        "@pulumi/kubernetesx": "^0.1.1",
+        "@pulumi/pulumi": "^2.0.0",
+        "@types/js-yaml": "^3.12.5",
+        "child_process": "^1.0.2",
+        "generate-password": "^1.7.0",
+        "js-yaml": "^3.14.0",
+        "openssl-nodejs": "^1.0.5",
+        "openssl-nodejs-promise": "^0.0.4",
+        "typescript": "^4.2.3"
+    }
+}
